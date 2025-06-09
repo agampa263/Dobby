@@ -95,7 +95,7 @@ jobs:
           -o coverage/${{ matrix.build_type }}/${{ matrix.extra_flags }}/coverage
           -t "dobby coverage"
           --ignore-errors source
-          --ignore-errors mismatch
+          --ignore-errors mismatch
           --rc geninfo_unexecuted_blocks=1
           filtered_coverage.info
 
