@@ -17,8 +17,8 @@ pip3 install requests
 git clone https://github.com/containers/libocispec.git
 cd libocispec
 
-meson build
+meson setup --warnlevel 3 --werror build
 ninja -C build
-sudo ninja -C build install
+ninja -C build install
 echo "completed building ocispec"
 cd -
