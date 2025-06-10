@@ -14,14 +14,14 @@ apt-get install -q -y automake libtool autotools-dev software-properties-common 
 pip3 install xmltodict
 pip3 install requests
 ############################
-git clone --recurse-submodules https://github.com/containers/libocispec.git
-cd libocispec
+# git clone --recurse-submodules https://github.com/containers/libocispec.git
+# cd libocispec
 
-git submodule update --init --recursive
-git clean -dfx
-./autogen.sh
-./configure
-make
-make install
-echo "completed building ocispec"
-cd -
+# git submodule update --init --recursive
+# git clean -dfx
+# ./autogen.sh
+# ./configure
+# make
+# make install
+# echo "completed building ocispec"
+# cd -

@@ -4,7 +4,7 @@ set -e
 ##############################
 GITHUB_WORKSPACE="${PWD}"
 ls -la ${GITHUB_WORKSPACE}
-
+git submodule update --init --recursive
 ############################
 # Build dobby
 echo "======================================================================================"
